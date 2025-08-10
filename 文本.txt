@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>打开王者荣耀</title>
+</head>
+<body>
+  <p>正在为您唤起王者荣耀...</p>
+  <script>
+    // 尝试打开王者荣耀
+    window.location.href = "tencentlaunch1104466820://";
+
+    // 如果 2 秒没打开，跳到官网
+    setTimeout(function() {
+      window.location.href = "https://pvp.qq.com/";
+    }, 2000);
+  </script>
+</body>
+</html>
